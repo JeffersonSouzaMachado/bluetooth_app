@@ -1,4 +1,4 @@
-import 'package:bluetooth_app/screen/homepage.dart';
+import 'package:bluetooth_app/views/homepage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Bluetooth App',
-      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
+      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.grey)),
       home: Homepage(),
     );
   }
